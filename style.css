@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(255, 255, 255, 0.418);
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+
+
+.login {
+    background-color: rgba(18, 15, 56, 0.37);
+    color: aliceblue;
+    border-style: solid;
+    border-color: rgb(20, 9, 80);
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.login:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(56, 18, 18);
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+#backg {
+    background-image: url(backg.jpg);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/cusit.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(21px);
+
+
+}
